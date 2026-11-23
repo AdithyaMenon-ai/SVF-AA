@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-openai
+langchain-ollama
+python-dotenv
+pydantic
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib

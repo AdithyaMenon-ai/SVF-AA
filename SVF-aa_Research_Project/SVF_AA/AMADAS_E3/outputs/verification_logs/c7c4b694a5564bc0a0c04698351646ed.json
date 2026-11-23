@@ -1,0 +1,30 @@
+{
+  "agent_name": "ml",
+  "decision": "ACCEPT",
+  "confidence": 1.0,
+  "risk_score": 0.0,
+  "verification_results": [
+    {
+      "verifier_name": "output",
+      "passed": true,
+      "score": 1.0,
+      "issues": [],
+      "severity": "none",
+      "applicable": true
+    },
+    {
+      "verifier_name": "constraints",
+      "passed": true,
+      "score": 1.0,
+      "issues": [],
+      "severity": "none",
+      "applicable": true
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "applicable_verifiers": 2,
+    "total_verifiers": 2
+  },
+  "timestamp_utc": "2026-11-20T16:18:47.454452+00:00"
+}

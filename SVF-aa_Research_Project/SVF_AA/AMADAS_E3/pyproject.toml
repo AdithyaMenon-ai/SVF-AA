@@ -1,0 +1,5 @@
+[project]
+name = "amadas-e3"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["langgraph", "langchain", "langchain-openai", "langchain-ollama", "python-dotenv", "pydantic", "pandas", "numpy", "scikit-learn", "matplotlib", "joblib"]

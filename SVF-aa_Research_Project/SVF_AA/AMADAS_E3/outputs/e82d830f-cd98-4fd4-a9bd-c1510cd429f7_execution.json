@@ -1,0 +1,62 @@
+{
+  "experiment": "E3",
+  "task_id": "e82d830f-cd98-4fd4-a9bd-c1510cd429f7",
+  "status": "completed",
+  "elapsed_seconds": 291.065,
+  "steps": [
+    {
+      "node": "planner",
+      "updated_fields": [
+        "analysis_plan"
+      ]
+    },
+    {
+      "node": "data_cleaner",
+      "updated_fields": [
+        "cleaned_dataset_path",
+        "cleaning_summary"
+      ]
+    },
+    {
+      "node": "eda",
+      "updated_fields": [
+        "eda_results",
+        "visualization_paths"
+      ]
+    },
+    {
+      "node": "ml",
+      "updated_fields": [
+        "ml_results",
+        "model_path"
+      ]
+    },
+    {
+      "node": "insight",
+      "updated_fields": [
+        "insights"
+      ]
+    },
+    {
+      "node": "report",
+      "updated_fields": [
+        "final_report",
+        "report_path"
+      ]
+    }
+  ],
+  "errors": [],
+  "ml_results": {
+    "status": "completed",
+    "task": "classification",
+    "model": "LogisticRegression",
+    "train_rows": 119,
+    "test_rows": 30,
+    "metrics": {
+      "accuracy": 0.9333,
+      "f1_weighted": 0.9333
+    },
+    "target_column": "target"
+  },
+  "report_path": "outputs\\reports\\e82d830f-cd98-4fd4-a9bd-c1510cd429f7_report.md"
+}
